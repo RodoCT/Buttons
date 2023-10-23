@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+
+.navbar{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFBFD;
+    height: 100%;
+    padding-bottom: 30%;
+}
+
+.navbar__title{
+    margin: 30px 0;
+    width: 80%;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #090F31;
+}
+
+.span{
+    color: #F7542E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.items{
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+.item{
+    font-weight: 700;
+    color: #090F31;
+}
+
+.buttons{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons__title{
+    width: 85%;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+    margin-top: 50px;
+}
+
+.container{
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.group__text{
+    font-family: 'Ubuntu Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+.opacity{
+    color: #828282; 
+}
+
+.disable{
+    background-color: #E0E0E0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F3F;
+}
+
+.disable__hover{
+    background-color: #E0E0E0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F3F;
+}
+
+.disable__hover:hover{
+    background-color: #AEAEAE;
+}
+
+.outline{
+    background-color: transparent;
+    border: solid 1px #3D5AFE;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D5AFE;
+}
+
+.outline__hover{
+    background-color: transparent;
+    border: solid 1px #3D5AFE;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D5AFE;
+}
+
+.outline__hover:hover{
+    background-color: #2962FF1A;
+}
+
+.text{
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D5AFE;
+}
+
+.text__hover{
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D5AFE;
+}
+
+.text__hover:hover{
+    border-radius: 5px;
+    background-color: #2962FF1A;
+}
+
+.shadow{
+    background-color: #3D5AFE;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.disabled{
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+.disabled__hover{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9E9E9E;
+}
+
+.icon{
+    background-color: #2962FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.fa-start{
+    margin-right: 10px;
+}
+
+.icon__end{
+    background-color: #2962FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.fa-end{
+    margin-left: 10px;
+}
+
+.small{
+    background-color: #3D5AFE;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.medium{
+    background-color: #3D5AFE;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.large{
+    background-color: #3D5AFE;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.default{
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3F3F3F;
+}
+
+.default__hover:hover{
+    background-color: #AEAEAE;
+}
+
+.primary{
+    background-color: #3D5AFE;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.primary__hover:hover{
+    background-color: #0039CB;
+}
+
+.secondary{
+    background-color: #455A64;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.secondary__hover:hover{
+    background-color: #1C313A;
+}
+
+.danger{
+    background-color: #D32F2F;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.danger__hover:hover{
+    background-color: #9A0007;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0 20px;
+}
+
+.footer__copyright{
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}

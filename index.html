@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans JP' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./vendors/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buttons</title>
+</head>
+
+<body>
+    <main class="content">
+        <!--  
+        <div class="navbar">
+            <h2 class="navbar__title"><span class="span">Dev</span>challenges.io</h2>
+            <ul class="list">
+                <li class="items">Colors</li>
+                <li class="items">Typography</li>
+                <li class="items">Spaces</li>
+                <li class="items item">Buttons</li>
+                <li class="items">Inputs</li>
+                <li class="items">Grid</li>
+            </ul>
+        </div>
+        -->
+
+        <div class="buttons">
+            <h2 class="buttons__title">Buttons</h2>
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button /&gt;</p>
+                    <div>
+                        <button class="disable">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="disable__hover">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button variant=”outline”&gt;</p>
+                    <div>
+                        <button class="outline">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="outline__hover">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button variant=”text”&gt;</p>
+                    <div>
+                        <button class="text">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="text__hover">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button disableShadow&gt;</p>
+                    <div>
+                        <button class="shadow">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button disabled&gt;</p>
+                    <div>
+                        <button class="disabled">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&lt;Button variant=”text” disabled&gt;</p>
+                    <div>
+                        <button class="disabled__hover">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button disabled&gt;</p>
+                    <div>
+                        <button class="icon"><i class="fa-solid fa-cart-plus fa-start"></i>Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&lt;Button variant=”text” disabled&gt;</p>
+                    <div>
+                        <button class="icon__end">Default<i class="fa-solid fa-cart-plus fa-end"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button size=”sm”&gt;</p>
+                    <div>
+                        <button class="small">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text">&lt;Button size=”md”&gt;</p>
+                    <div>
+                        <button class="medium">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text">&lt;Button size=”lg”&gt;</p>
+                    <div>
+                        <button class="large">Default</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text">&lt;Button color=”default”&gt;</p>
+                    <div>
+                        <button class="default">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text">&lt;Button color=”primary”&gt;</p>
+                    <div>
+                        <button class="primary">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text">&lt;Button color=”secondary”&gt;</p>
+                    <div>
+                        <button class="secondary">Secondary</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text">&lt;Button color=”danger”&gt;</p>
+                    <div>
+                        <button class="danger">Danger</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="default default__hover">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="primary primary__hover">Default</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="secondary secondary__hover">Secondary</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <p class="group__text opacity">&:hover, &:focus</p>
+                    <div>
+                        <button class="danger danger__hover">Danger</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h2 class="footer__copyright">created by <a href="https://github.com/RodoCT" target="_blank"
+                rel="noopener noreferrer" class="span">RodoCT</a> - devChallenges.io</h2>
+    </footer>
+</body>
+
+</html>
